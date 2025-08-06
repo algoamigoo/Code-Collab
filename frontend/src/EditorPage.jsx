@@ -5,7 +5,7 @@ import Editor from "@monaco-editor/react";
 import toast from "react-hot-toast";
 import "./App.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://code-collab-0ixr.onrender.com");
 
 const EditorPage = () => {
   const { roomId } = useParams();
